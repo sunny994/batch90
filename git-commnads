@@ -57,3 +57,40 @@ git commit -m "Sample file1" file1
 git status
 git log
 git push
+
+rm file1  (to delete a file)
+git status
+git add file1
+gti status
+git commit -m "deleted file"
+git status
+git log
+q (quit)
+git push
+
+
+-------------------
+mkdir dir1
+ls
+git status
+touch dir1/f1
+git status
+git add *
+git status
+git commit -m "smaple dir commit"
+git status
+git push
+
+=======================================
+
+git clone https://github.com/polarapu/batch90.git
+ls
+cd batch90
+touch prasad
+ls
+git status
+git add prasad
+git status
+git commit -m "Smaple commit by prasad"
+git status
+git push
